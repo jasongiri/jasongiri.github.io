@@ -21,34 +21,13 @@
   <meta property="og:description" content="Music by JUICD: where marching band discipline meets modern beats." />
   <meta property="og:type" content="website" />
 
-  <!-- Tailwind CSS via CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Self-hosted Tailwind build (no CDN) -->
+  <link rel="stylesheet" href="styles.css" />
 
   <!-- Google Fonts: Space Grotesk (headings) + Inter (body) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-
-  <!-- Tailwind theme customization: dark "juice" palette -->
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            ink: "#0a0b10",      // deep charcoal background
-            slatecard: "#13141c", // raised card surface
-            juice: "#aaff00",     // neon green accent
-            zest: "#ff7a00",      // bright orange accent
-            volt: "#9d4dff",      // electric purple accent
-          },
-          fontFamily: {
-            display: ['"Space Grotesk"', "sans-serif"],
-            body: ['"Inter"', "sans-serif"],
-          },
-        },
-      },
-    };
-  </script>
 
   <style>
     /* Animated glow gradient used behind the hero title */
